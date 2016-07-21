@@ -103,6 +103,9 @@
   [defaultCenter removeObserver:self
                            name:kJPFServiceErrorNotification
                          object:nil];
+    
+    
+    
 }
 
 - (void)networkDidSetup:(NSNotification *)notification {
